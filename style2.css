@@ -1,0 +1,1285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #aa00ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav ul li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.header .nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.search {
+
+    background-color: white;
+    display: flex;
+    width: 200px;
+    margin-right: 25px;
+    align-items: center;
+    height: 25px;
+    border: solid white 2px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon a {
+    color: black;
+    font-size: 20px;
+}
+
+input {
+    border: none;
+}
+
+.main {
+    padding-bottom: 30px;
+    background-color: #f5e5fd;
+
+}
+
+.main2 {
+    background-color: #e1aefb;
+    width: 100%;
+    height: fit-content;
+}
+
+.banner {
+    background-image: url(assests/images/banner\ as.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-color: bisque;
+    background-repeat: no-repeat;
+
+}
+
+.main .banner h1 {
+    font-size: 70px;
+    padding-top: 70px;
+    padding-left: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner h2 {
+    padding-top: 10px;
+    padding-left: 180px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.banner button {
+    margin-top: 30px;
+    margin-left: 150px;
+    color: white;
+    background-color: #aa00ff;
+    padding: 8px 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    transition-duration: 0.2s;
+}
+
+.banner button:hover {
+    border-radius: 10px;
+    transform: scale(1.05);
+    box-shadow: none;
+
+}
+
+.fa-magnifying-glass {
+    padding-top: 3px;
+}
+
+.header .nav ul li a:hover {
+    color: black;
+}
+
+::placeholder {
+    padding-left: 20px;
+}
+
+.banner2 {
+    padding: 15px 25px;
+    display: flex;
+}
+
+.section1 {
+    width: 25%;
+    height: 200px;
+    background-color: #3c6738;
+    border-radius: 25px;
+}
+
+.section2 {
+    width: 75%;
+    height: 200px;
+    background-color: #3c6738;
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+
+.section1 h1 {
+    font-size: 85px;
+    display: flex;
+    justify-content: center;
+    color: #ffe85a;
+}
+
+.section1 p {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    width: 150px;
+    margin: 0px auto;
+}
+
+.section2 .top {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.section2 .top h1 {
+    color: white;
+}
+
+.section2 .top p {
+    color: white;
+}
+
+.images {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.image1 {
+    width: 23%;
+    height: 100%;
+    background-color: rgb(231, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image2 {
+    width: 23%;
+    height: 100%;
+    background-color: rgb(231, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image3 {
+    width: 23%;
+    height: 100%;
+    background-color: rgb(231, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image4 {
+    width: 23%;
+    height: 100%;
+    background-color: rgb(231, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    font-size: 40PX;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.product1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.product1 .card1 {
+    height: 400px;
+    width: 25%;
+    box-shadow: 2px 2px 10px gray;
+    background-color: rgb(233, 227, 227);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.product1 .card1:hover {
+    transform: translateX(-10px);
+    box-shadow: 5px 0px 10px black;
+}
+
+.product1 .card2 {
+    height: 400px;
+    width: 25%;
+    box-shadow: 2px 2px 10px gray;
+    background-color: rgb(233, 227, 227);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.product1 .card2:hover {
+    transform: translatey(-10px);
+    box-shadow: 0px 5px 10px black;
+}
+
+.product1 .card3 {
+    height: 400px;
+    width: 25%;
+    box-shadow: 2px 2px 10px gray;
+    background-color: rgb(233, 227, 227);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.product1 .card3:hover {
+    transform: translateX(10px);
+    box-shadow: -5px 0px 10px black;
+}
+
+.product1 .card1 .top {
+    height: 15%;
+    width: 55%;
+    background-color: #aa00ff;
+    border-top-right-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.product1 .card2 .top {
+    height: 15%;
+    width: 55%;
+    background-color: #aa00ff;
+    border-top-right-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.product1 .card3 .top {
+    height: 15%;
+    width: 55%;
+    background-color: #aa00ff;
+    border-top-right-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.product1 .card1 .image {
+
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product1 .card1 p {
+    color: black;
+    text-align: center;
+}
+
+.product1 .card2 .image {
+
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product1 .card2 p {
+    color: black;
+    text-align: center;
+}
+
+.product1 .card3 .image {
+
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product1 .card3 p {
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+.product2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.product2 .card1 {
+    height: 400px;
+    width: 25%;
+    box-shadow: 2px 2px 10px gray;
+    background-color: rgb(233, 227, 227);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.product2 .card1:hover {
+    transform: translateX(-10px);
+    box-shadow: 5px 0px 10px black;
+}
+
+
+.product2 .card2 {
+    height: 400px;
+    width: 25%;
+    box-shadow: 2px 2px 10px gray;
+    background-color: rgb(233, 227, 227);
+    transition: all;
+    transition-duration: 0.5s;
+
+}
+
+.product2 .card2:hover {
+    transform: translatey(10px);
+    box-shadow: 0px -5px 10px black;
+}
+
+.product2 .card3 {
+    height: 400px;
+    width: 25%;
+    box-shadow: 2px 2px 10px gray;
+    background-color: rgb(233, 227, 227);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.product2 .card3:hover {
+    transform: translateX(10px);
+    box-shadow: -5px 0px 10px black;
+}
+
+.product2 .card1 .top {
+    height: 15%;
+    width: 55%;
+    background-color: #aa00ff;
+    border-top-right-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.product2 .card2 .top {
+    height: 15%;
+    width: 55%;
+    background-color: #aa00ff;
+    border-top-right-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.product2 .card3 .top {
+    height: 15%;
+    width: 55%;
+    background-color: #aa00ff;
+    border-top-right-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.product2 .card1 .image {
+
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product2 .card1 p {
+    color: black;
+    text-align: center;
+}
+
+.product2 .card2 .image {
+
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product2 .card2 p {
+    color: black;
+    text-align: center;
+}
+
+.product2 .card3 .image {
+
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product2 .card3 p {
+    color: black;
+    text-align: center;
+}
+
+.banner3 {
+    background-image: url(assests/images/astound/banner2.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.banner3 h3 {
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 25px;
+}
+
+.banner3 .new-arrival {
+    padding-top: 2.5%;
+    padding-left: 100px;
+}
+
+.banner3 p {
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner3 h6 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.category {
+
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    background-color: #e1aefb;
+    padding-top: 20px;
+}
+
+.category1 {
+    margin-top: 10PX;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.category1 .card1 {
+    width: 20%;
+    height: 200px;
+    background-image: url(assests/images/astound/category1.jpg);
+    background-size: cover;
+    border: solid 1px gray;
+    transition-duration: 0.2s;
+    box-shadow: 1px 1px 10px black;
+
+}
+
+.category1 .card1:hover {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.category1 .card1 p {
+
+
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(43, 42, 42);
+
+}
+
+.category1 .card2 {
+    width: 20%;
+    height: 200px;
+    background-image: url(assests/images/astound/category2.jpg);
+    background-size: cover;
+    border: solid 1px gray;
+    transition-duration: 0.2s;
+    box-shadow: 1px 1px 10px black;
+}
+
+.category1 .card2:hover {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.category1 .card2 p {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+
+}
+
+.category1 .card3 {
+    width: 20%;
+    height: 200px;
+    background-image: url(assests/images/astound/category3.jpg);
+    background-size: cover;
+    border: solid 1px gray;
+    transition-duration: 0.2s;
+    box-shadow: 1px 1px 10px black;
+}
+
+.category1 .card3:hover {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.category1 .card3 p {
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+
+}
+
+.category1 .card4 {
+    width: 20%;
+    height: 200px;
+    background-image: url(assests/images/astound/category4.jpg);
+    background-size: cover;
+    border: solid 1px gray;
+    transition-duration: 0.2s;
+    box-shadow: 1px 1px 10px black;
+}
+
+.category1 .card4:hover {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.category1 .card4 p {
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+
+}
+
+
+
+.category2 {
+    margin-top: 20PX;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px
+}
+
+.category2 .card1 {
+    width: 20%;
+    height: 200px;
+    background-image: url(assests/images/astound/category5.jpg);
+    background-size: cover;
+    border: solid 1px gray;
+    transition: 0.2s;
+    box-shadow: 1px 1px 10px black;
+}
+
+.category2 .card1:hover {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.category2 .card1 p {
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+
+}
+
+.category2 .card2 {
+    width: 20%;
+    height: 200px;
+    background-image: url(assests/images/astound/category6.jpg);
+    background-size: cover;
+    border: solid 1px gray;
+    transition: 0.2s;
+    box-shadow: 1px 1px 10px black;
+}
+
+.category2 .card2:hover {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.category2 .card2 p {
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+
+}
+
+.category2 .card3 {
+    width: 20%;
+    height: 200px;
+    background-image: url(assests/images/astound/category7.jpg);
+    background-size: cover;
+    border: solid 1px gray;
+    transition-duration: 0.2s;
+    box-shadow: 1px 1px 10px black;
+}
+
+.category2 .card3:hover {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.category2 .card3 p {
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+
+}
+
+.category2 .card4 {
+    width: 20%;
+    height: 200px;
+    background-image: url(assests/images/astound/category8.jpg);
+    background-size: cover;
+    border: solid 1px gray;
+    transition-duration: 0.2s;
+    box-shadow: 1px 1px 10px black;
+}
+
+.category2 .card4:hover {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.category2 .card4 p {
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+
+}
+
+.section3 {
+    box-shadow: 1px 1px 5px black;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section3 .top-brands {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section3 .top-brands h1 {
+    padding: 5px 30px;
+    background-color: black;
+    box-shadow: 5px 5px 20px black;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 15px;
+}
+
+.section3 .brands {
+    align-items: center;
+    display: flex;
+    width: 75%;
+    justify-content: space-around
+}
+
+.section3 .brands .image1 {
+    background-image: url(assests/images/astound/puma.jpg);
+    height: 80px;
+    width: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+
+
+}
+
+.section3 .brands .image2 {
+    background-image: url(assests/images/astound/tommy.jpg);
+    height: 80px;
+    width: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+}
+
+.section3 .brands .image3 {
+    background-image: url(assests/images/astound/gucci.jpg);
+    height: 80px;
+    width: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+}
+
+.section3 .brands .image4 {
+    background-image: url(assests/images/astound/crocks.jpg);
+    height: 80px;
+    width: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+}
+
+.section3 .brands .image5 {
+    background-image: url(assests/images/astound/piaget.jpg);
+    height: 80px;
+    width: 112px;
+    background-color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+}
+
+.section3 .brands .image6 {
+    background-image: url(assests/images/astound/biotique.jpg);
+    height: 80px;
+    width: 112px;
+    background-color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+}
+
+.footer {
+    padding-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(70, 69, 69);
+}
+
+.footer .section4 {
+    height: 50%;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    color: rgb(185, 184, 184);
+    justify-content: space-around;
+}
+
+.footer .section4 .content {
+    width: 20%;
+}
+
+.footer .section4 .list1 {
+    width: 20%;
+    list-style-type: none;
+}
+
+.footer .section4 .list2 {
+    width: 20%;
+    list-style-type: none;
+}
+
+.follow {
+    width: 20%;
+    text-align: center;
+
+}
+
+.footer .section4 .follow h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.follow-icon {
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.follow-icon a {
+    font-size: 25px;
+    color: white;
+    background-color: #aa00ff;
+    padding: 5px 13px;
+    border-radius: 100%;
+}
+
+.follow-icon a:hover {
+    color: #aa00ff;
+    background-color: white;
+}
+
+.footer .section5 {
+    height: 60%;
+    width: 100%;
+    color: rgb(185, 184, 184);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .section5 .contact {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.footer .section5 .download {
+    width: 20%;
+}
+
+.download h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.bar {
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .header .logo {
+        margin-left: 10px;
+    }
+
+    .header .logo img {}
+
+    .header .nav {
+        display: none;
+    }
+
+    .header .icon {
+        display: none;
+    }
+
+    .product1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 70%;
+        grid-gap: 10px;
+
+    }
+
+    .product1 .card1 {
+        width: 100%;
+    }
+
+    .product1 .card2 {
+        width: 100%;
+    }
+
+    .product1 .card3 {
+        width: 100%;
+    }
+
+    .product2 {
+        margin-top: 10px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 70%;
+        grid-gap: 10px;
+    }
+
+    .product2 .card1 {
+        width: 100%;
+    }
+
+    .product2 .card2 {
+        width: 100%;
+    }
+
+    .product2 .card3 {
+        width: 100%;
+    }
+
+    .banner3 p {
+        font-size: 25px;
+    }
+
+    .bar {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .category .category1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        grid-gap: 20px;
+    }
+
+    .category .category1 .card1 {
+        width: 100%;
+    }
+
+    .category .category1 .card2 {
+        width: 100%;
+
+    }
+
+    .category .category1 .card3 {
+        width: 100%;
+
+    }
+
+    .category .category1 .card4 {
+        width: 100%;
+    }
+
+    .category .category2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px;
+    }
+
+    .category .category2 {
+        margin-top: 10px;
+        padding: 0px;
+    }
+
+    .category2 .card1 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .category2 .card2 {
+        background-size: cover;
+        width: 100%;
+        background-position: center;
+    }
+
+    .category2 .card3 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .category2 .card4 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner {
+        background-image: url(assests/images/mobile\ banner.jpg);
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+    }
+
+    .banner h1,
+    h2 {
+        display: none;
+    }
+
+    .banner button {
+        font-size: 10px;
+        padding: 0px;
+        margin-top: 100px;
+        margin-left: 50px;
+        padding: 2px 5px;
+    }
+
+    .banner2 {
+        display: none;
+    }
+
+    section {
+        font-size: 20px;
+    }
+
+    .banner3 {
+        width: 100%;
+        height: 150px;
+    }
+
+    .banner3 .new-arrival h3 {
+        font-size: 10px;
+        font-weight: normal;
+        padding: 5px 10px;
+    }
+
+    .banner3 p {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: fit-content;
+    }
+
+    .banner3 h6 {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding: 0px;
+        width: fit-content;
+    }
+
+    .section3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+
+    .section3 .top-brands {
+        width: 80%;
+        margin: 10px 0px;
+    }
+
+    .section3 .top-brands h1 {
+        font-size: 15px;
+        width: fit-content;
+    }
+
+    .section3 .brands {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        grid-gap: 10px;
+    }
+
+    .section3 .brands .image1 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section3 .brands .image2 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section3 .brands .image3 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section3 .brands .image4 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section3 .brands .image5 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section3 .brands .image6 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: fit-content;
+
+    }
+
+    .footer .section4 {
+        display: grid;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        grid-template-columns: 50% 50%;
+        grid-gap: 30px;
+        padding: 0px 30px;
+
+    }
+
+    .footer .section4 .content {
+        width: 100%;
+    }
+
+    .footer .section4 .list1 {
+        width: 100%;
+    }
+
+    .footer .section4 .list2 {
+        width: 100%;
+    }
+
+    .footer .section4 .follow {
+        width: 100%;
+    }
+
+    .footer .section4 .follow h1 {
+        font-size: 15px;
+    }
+
+    .follow-icon a {
+        padding: 2px 6px;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+    .footer .section5 {
+        display: grid;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        grid-template-columns: 50% 40%;
+        grid-gap: 10px;
+        margin-top: 30px;
+        padding: 0px 5px;
+
+
+
+    }
+
+    .footer .section5 .contact {
+        width: 100%;
+        margin-left: 0px;
+
+
+    }
+
+    .footer .section5 .contact h1 {
+        font-size: 15px;
+    }
+
+    .footer .section5 .download {
+        width: 100%;
+    }
+
+
+}
